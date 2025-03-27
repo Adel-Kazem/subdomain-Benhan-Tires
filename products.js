@@ -1,66 +1,66 @@
 const PRODUCTS = [
     {
         id: 1,
-        name: 'Premium Wireless Headphones',
-        description: 'Experience crystal-clear sound with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and ultra-comfortable ear cushions for all-day listening.',
-        price: 199.99,
+        name: 'Premium Alloy Wheels - Starburst Design',
+        description: 'Enhance your vehicle performance and style with our premium alloy wheels. Featuring a sleek starburst design, these lightweight wheels improve handling and fuel efficiency while turning heads on the road.',
+        price: 299.99,
         rating: 4.7,
-        stock: 15,
+        stock: 20,
         images: [
-            'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            'https://images.unsplash.com/photo-1611821064430-0d40291d0f0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1611821064684-0ef5eed64c8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1611821065763-5ea0aad59df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1611821064897-8ac7d2c9be64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'White', 'Blue'],
+        colors: ['Silver', 'Black', 'Gunmetal'],
         features: [
-            'Active Noise Cancellation',
-            'Bluetooth 5.0',
-            '30-hour battery life',
-            'Quick charge (5 min = 3 hours)',
-            'Voice assistant compatible'
+            'Lightweight alloy construction',
+            'Starburst design',
+            'Improved handling',
+            'Better fuel efficiency',
+            'Sizes from 17" to 20"'
         ]
     },
     {
         id: 2,
-        name: 'Smart Fitness Tracker',
-        description: 'Track your health and fitness goals with our advanced smart fitness tracker. Monitor heart rate, sleep patterns, and activity levels with precision sensors and a vibrant display.',
-        price: 89.99,
-        rating: 4.5,
-        stock: 42,
+        name: 'High-Performance Racing Wheels',
+        description: 'Dominate the track with our high-performance racing wheels. Engineered for maximum strength and minimal weight, these wheels provide superior cornering and acceleration for the serious motorsport enthusiast.',
+        price: 449.99,
+        rating: 4.9,
+        stock: 15,
         images: [
-            'https://images.unsplash.com/photo-1575311373937-040b8e1fd6b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1626371353531-b2cf4f8a4038?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            'https://images.unsplash.com/photo-1626847037657-fd3622613ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1626847037681-5b4f0ab1d44e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1626847037675-fd3622613ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'Red', 'Green'],
+        colors: ['Matte Black', 'Gold', 'Red'],
         features: [
-            'Heart rate monitoring',
-            'Sleep tracking',
-            'Water resistant (50m)',
-            '7-day battery life',
-            'Smartphone notifications'
+            'Ultra-lightweight design',
+            'High-strength alloy',
+            'Optimized for track performance',
+            'Enhanced brake cooling',
+            'Available in 18" and 19"'
         ]
     },
     {
         id: 3,
-        name: 'Portable Bluetooth Speaker',
-        description: 'Take your music anywhere with our compact yet powerful Bluetooth speaker. Featuring 360° sound, waterproof design, and 12 hours of playback for the perfect outdoor companion.',
-        price: 59.99,
-        rating: 4.2,
-        stock: 28,
+        name: 'All-Terrain Off-Road Wheels',
+        description: 'Conquer any terrain with our rugged all-terrain wheels. Built to withstand the toughest off-road conditions, these wheels offer superior traction and durability for your adventures beyond the pavement.',
+        price: 379.99,
+        rating: 4.6,
+        stock: 25,
         images: [
-            'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            'https://images.unsplash.com/photo-1611821064684-0ef5eed64c8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1611821064897-8ac7d2c9be64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1611821065763-5ea0aad59df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Orange', 'Blue', 'Gray'],
+        colors: ['Bronze', 'Black', 'Graphite'],
         features: [
-            'Waterproof (IPX7)',
-            '360° sound technology',
-            '12-hour battery life',
-            'Built-in microphone',
-            'Portable design'
+            'Reinforced construction',
+            'Deep lip for better traction',
+            'Mud and rock resistant',
+            'Sizes from 16" to 20"',
+            'Compatible with most off-road tires'
         ]
     }
-]
+];
