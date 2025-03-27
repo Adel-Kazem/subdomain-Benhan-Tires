@@ -94,5 +94,15 @@ const PRODUCTS = [
       "https://raw.githubusercontent.com/Adel-Kazem/subdomain-Benhan-Tires/main/products_images/2.jpeg"
     ],
     rating: 5
+  },
+  {
+    id: 6,
+    name: "Premium Alloy Wheels - Starburst Design",
+    description: "Enhance your vehicle performance and style with our premium alloy wheels. Featuring a sleek starburst design, these lightweight wheels improve handling and fuel efficiency while turning heads on the road.",
+    price: 225,
+    images: [
+      "https://raw.githubusercontent.com/Adel-Kazem/subdomain-Benhan-Tires/main/products_images/3.jpeg"
+    ],
+    rating: 5
   }
 ];
