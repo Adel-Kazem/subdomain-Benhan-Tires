@@ -26,31 +26,6 @@ const PRODUCTS = [
     ]
   },
   {
-    id: 2,
-    name: "High-Performance Racing Wheels",
-    description: "Dominate the track with our high-performance racing wheels. Engineered for maximum strength and minimal weight, these wheels provide superior cornering and acceleration for the serious motorsport enthusiast.",
-    price: 449.99,
-    rating: 4.9,
-    stock: 15,
-    images: [
-      "https://images.unsplash.com/photo-1626847037657-fd3622613ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1626847037681-5b4f0ab1d44e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1626847037675-fd3622613ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-    ],
-    colors: [
-      "Matte Black",
-      "Gold",
-      "Red"
-    ],
-    features: [
-      "Ultra-lightweight design",
-      "High-strength alloy",
-      "Optimized for track performance",
-      "Enhanced brake cooling",
-      "Available in 18\" and 19\""
-    ]
-  },
-  {
     id: 3,
     name: "All-Terrain Off-Road Wheels",
     description: "Conquer any terrain with our rugged all-terrain wheels. Built to withstand the toughest off-road conditions, these wheels offer superior traction and durability for your adventures beyond the pavement.",
