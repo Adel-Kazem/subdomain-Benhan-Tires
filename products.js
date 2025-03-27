@@ -84,5 +84,15 @@ const PRODUCTS = [
       "https://raw.githubusercontent.com/Adel-Kazem/subdomain-Benhan-Tires/main/products_images/1.jpeg"
     ],
     rating: 5
+  },
+  {
+    id: 5,
+    name: "High-Performance Racing Wheels",
+    description: "Dominate the track with our high-performance racing wheels. Engineered for maximum strength and minimal weight, these wheels provide superior cornering and acceleration for the serious motorsport enthusiast.",
+    price: 200,
+    images: [
+      "https://raw.githubusercontent.com/Adel-Kazem/subdomain-Benhan-Tires/main/products_images/2.jpeg"
+    ],
+    rating: 5
   }
 ];
