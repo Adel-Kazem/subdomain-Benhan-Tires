@@ -3,7 +3,7 @@ const PRODUCTS = [
     id: 4,
     name: "All-Terrain Off-Road Wheels",
     description: "Conquer any terrain with our rugged all-terrain wheels. Built to withstand the toughest off-road conditions, these wheels offer superior traction and durability for your adventures beyond the pavement.",
-    price: 80,
+    price: 89,
     images: [
       "https://raw.githubusercontent.com/Adel-Kazem/subdomain-Benhan-Tires/main/products_images/1.jpeg"
     ],
@@ -13,7 +13,7 @@ const PRODUCTS = [
     id: 5,
     name: "High-Performance Racing Wheels",
     description: "Dominate the track with our high-performance racing wheels. Engineered for maximum strength and minimal weight, these wheels provide superior cornering and acceleration for the serious motorsport enthusiast.",
-    price: 200,
+    price: 199,
     images: [
       "https://raw.githubusercontent.com/Adel-Kazem/subdomain-Benhan-Tires/main/products_images/2.jpeg"
     ],
